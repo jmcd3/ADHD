@@ -1,0 +1,164 @@
+/*CSS Reset*/
+body, header, nav, main, footer, img, h1, h2{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/*Style rule for body and image*/
+body {  
+    background: linear-gradient(#23a539, #0d6161, #d17f32, #2633e4);
+}
+
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 15%;
+}
+
+/*Style rule for header h1 content*/
+header h1 {
+display: block;
+background-color: rgb(56, 38, 110);
+  text-align: center;
+  font-size: 2em;
+  font-family: Georgia, Times, serif;
+  padding: 0.5%;
+  color: #df9037;
+}
+/*Style rules for header 2 content*/
+h2 {
+  color:aqua;
+}
+
+/*Style rules for navigation area*/
+nav, nav ul, nav li, nav li a{
+  background-color: #ffffff;
+  position:sticky;
+  top: 0px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0%;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.6em;
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: bold;
+}
+
+nav li a {
+  display: block;
+  color: #e3eaf8;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-decoration: none;
+  
+}
+
+/* unvisited link */
+a:link {
+color: red;
+}
+
+/* visited link */
+a:visited {
+color: green;
+}
+
+/* mouse over link */
+a:hover {
+color: rgb(223, 203, 27);
+}
+
+/* selected link */
+a:active {
+color: blue;
+}
+
+/* Create three equal columns that float next to each other */
+.column {
+float: left;
+width: 33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+.column {
+  width: 100%;
+}
+}
+
+/*Style rules for main content*/
+main{
+  padding: 2%;
+  font-family: 'Times New Roman', Arial, sans-serif;
+  overflow: auto;
+  border: 1px solid #000;
+  border-radius: 5px;
+  
+}
+
+p {
+  font-size: 1.5em;
+  font-family: 'Dancing Script', cursive;
+  font-style: italic;
+  color: rgb(252, 252, 252);
+  
+}
+main ul{
+  font-size: 1em;
+  list-style-type: none;
+}
+
+main li{
+  padding-top: 2%;
+  font-size: 1.5em;
+  float: left;
+  width: 33.33%;
+  font-style: italic;
+  
+}
+
+/* Style rules for footer content*/
+footer{
+  text-align: center;
+  font-size: 0.5em;
+  background-color: #1d396d;
+  color: #e3eaf8;
+  padding-top: 0.1%;
+  padding-bottom: 0.1%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+footer p{
+  color: #e3eaf8;
+  text-decoration: none;
+}
+
+/*show mobile class, hide tablet-desktop class*/
+.tablet-desktop {
+  display: none;
+}
+
+/*Style rules for mobile viewport*/
+
+
+
+
